@@ -79,7 +79,8 @@ body {
   background-color: grey;
   width: 50%;
   margin: 0 auto;
-  border-radius: 10%;
+  border-radius: 20px;
+  padding: 25px;
 }
 .drop-down-list {
   padding: 25px 10px 15px 10px;
