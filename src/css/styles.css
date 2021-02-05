@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  background-color: lightslategrey;
+}
+.input {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 50%;
+  margin-top: 40px;
+  border-radius: 4px;
+  font-size: 32px;
+  outline: none;
+  padding: 15px;
+}
+.picture {
+  width: 300px;
+}
+.full-container {
+  display: flex;
+  justify-content: center;
+}
+.country {
+  font-size: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.description-container {
+  margin-right: 25px;
+}
+.description {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.info {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.description :first-child {
+  margin-top: 10px;
+}
+.list {
+  font-size: 30px;
+  color: white;
+  background-color: grey;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+.drop-down-list {
+  padding: 25px 10px 15px 10px;
+}
+
+.pnotify
+  pnotify-positioned
+  pnotify-with-icon
+  brighttheme-elem
+  pnotify-mode-no-preference
+  pnotify-in
+  pnotify-fade-in
+  pnotify-move
+  pnotify-stack-down
+  pnotify-fade-normal {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
